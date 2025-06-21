@@ -11,7 +11,7 @@
 
     }
     .container{
-        padding: 0 20px;
+        padding: 0 10px;
     }
     .card-1{
         width: 47%;
@@ -24,6 +24,12 @@
     }
     .mobile-icon{
         display: block;
+    }
+    .card-4{
+        width: 100%;
+    }
+    .card-5{
+        width: 50%;
     }
 
 }
@@ -53,10 +59,13 @@
     .mobile-icon{
         display: none
     }
+    .card-10{
+        width: 49%;
+    }
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .card-4{
         justify-content:space-around;
     }
@@ -66,10 +75,17 @@
         }
     }
     .column {
-        width: 80%;
+        width: 100%;
 
     }
-}@media only screen and (max-width: 400px) {
+    .card-10{
+        width: 100%;
+    }
+    .card-5{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
     .container{
         padding: 0 5px;
     }

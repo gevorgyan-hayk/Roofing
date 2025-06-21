@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,12 @@
 }
 html{
     scroll-behavior: smooth;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
 .container {
     max-width: 1400px;
@@ -250,6 +257,7 @@ header{
 }
 .descript {
     font-size: 25px;
+    padding: 5px 0;
 }
 
 .card-5 {
@@ -342,6 +350,7 @@ padding: 50px 0 100px;
 }
 .text-3{
     font-size: 20px;
+    padding: 20px 0;
 }
 .btn-2{
     font-size: 30px;
